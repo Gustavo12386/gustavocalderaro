@@ -64,7 +64,7 @@ a{
   transition: all 0.3s ease-in-out;
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
    .hamburguer{
       display: block;
    }
@@ -172,4 +172,109 @@ a{
    color: #5c5a5a;
    transition: .4s;
    cursor: default;
-}    
+}   
+
+/*Projetos*/
+
+.projects {
+   margin-bottom: 16rem;
+   /*scroll-margin-top: 15rem;*/
+   margin-top: 5rem;
+}
+
+.projects .projects__content {
+   max-width: 56rem;
+   text-align: center;
+   margin: 0 auto 6rem;
+}
+
+.projects ul li {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 4rem;
+}
+
+.projects ul li:not(:last-of-type) {
+   margin-bottom: 12rem;
+}
+
+.projects ul li .image img {
+   width: 100%;
+   min-width: 40rem;
+   max-width: 47rem;
+   height: auto;
+   margin-left: 24px;
+}
+
+.projects ul li .projects__info {
+   max-width: 47rem;
+   margin-right: 24px;
+}
+
+.projects ul li .projects__info p {
+   margin: 1rem 0 4rem;
+}
+
+.second-title{
+   font-size: 3rem;
+   font-weight: 700;
+   line-height: 4.5rem;
+}
+
+.third-title{
+   font-size: 3.2rem;
+   font-weight: 500;
+   line-height: 4.5rem;
+}
+
+/*footer*/
+
+footer{
+   background-color: var(--dark5); 
+}
+
+footer .footer__content {
+   text-align: center;   
+   padding: 6rem 2rem 1rem;
+   max-width: 47rem;
+   display: initial;
+}
+
+footer .footer__content .footer__contact span {
+   display: block;
+   font-weight: 500;
+}
+
+footer .footer__content ul li {
+   display: inline-block;
+}
+ 
+footer .footer__content ul a {
+   display: inline-block;
+   padding: 1px;
+}
+ 
+footer .footer__content .footer__copyright {
+   font-size: 1.2rem;
+}
+
+.footer__content{
+   margin-bottom: 1rem;
+}
+
+.fourth-title{
+   margin-bottom: 1rem; 
+   padding: 9px;
+}
+.description-footer{
+   margin-bottom: 1rem;
+}
+
+.footer__contact{
+   margin-bottom: 1rem;
+}
+
+.contact{
+   margin-bottom: 1rem; 
+}
