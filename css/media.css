@@ -1,0 +1,95 @@
+@media (max-width:768px){
+    /*navbar*/    
+    .hamburguer{
+       display: block;
+    }
+    .hamburguer.active .bar:nth-child(2){
+       opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(1){
+     transform: translateY(8px) rotate(45deg);
+    }
+    .hamburguer.active .bar:nth-child(3){
+       transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        border-radius: 0 0 20px 20px;
+        background-color: var(--cyan1);  
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.3s;
+    }
+    .nav-item{
+       margin: 16px 0;
+    }
+    .nav-menu.active{
+       left: 0;
+    }
+    #contatos-link {
+        display: block;
+    }
+
+    /*Home*/
+    #home {
+     flex-direction: column-reverse;
+     justify-content: center;
+    }
+    .home-info, .home-img {
+       width: 100%;
+       padding: 10px;
+    }
+
+    .home-img img{
+        width: 200px;
+        height: 210px;
+        border-radius: 20%;
+    }
+    
+    button{
+      display: none;
+    }
+
+    /*Especialidades*/
+    .title{
+      font-size: 21px;
+    }
+
+    /*Projetos*/
+    .second-title{
+      font-size: 30px;
+    }   
+    .third-title{
+      line-height: 3.5rem;
+    }
+    .projects ul li,
+    .projects ul li.projects-list {
+      flex-direction: column;
+      margin-left: 40px;
+      margin-bottom: 3rem;
+    }
+    .projects ul li .projects__info {
+       max-width: 66rem;      
+    }
+    .projects ul li .image img {
+        min-width: auto;
+        margin-left: 0px; 
+        width: 90%;
+    }
+    .third-title{
+        font-size: 2rem;
+    }
+
+    /*Rodapé*/
+    footer{
+       height: 530px;
+    }
+    .description-footer{
+       font-size: 18px;
+    }
+   
+ }
