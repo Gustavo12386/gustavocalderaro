@@ -39,19 +39,25 @@
      flex-direction: column-reverse;
      justify-content: center;
     }
+    
     .home-info, .home-img {
        width: 100%;
-       padding: 10px;
+       padding: 10px;       
     }
 
     .home-img img{
         width: 200px;
         height: 210px;
         border-radius: 20%;
+        margin-top: 50px;
     }
     
-    button{
+    .button-contact{
       display: none;
+    }
+
+    .button-download{
+      margin-top: 5px;     
     }
 
     /*Especialidades*/
