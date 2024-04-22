@@ -46,10 +46,10 @@
     }
 
     .home-img img{
-        width: 200px;
-        height: 210px;
-        border-radius: 20%;
-        margin-top: 50px;
+        width: 171px;
+        height: 163px;
+        border-radius: 30%;
+        margin-top: 100px;
     }
     
     .button-contact{
@@ -58,6 +58,7 @@
 
     .button-download{
       margin-top: 5px;  
+      margin-bottom: 60px;
       display: block;      
     }
 
