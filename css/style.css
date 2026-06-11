@@ -67,11 +67,7 @@
    margin: 5px auto;
    background-color: var(--black);
    transition: all 0.3s ease-in-out;
- }
- 
- #contatos-link {
-   display: none;
- }
+ } 
 
 /* Home */
 .home-img{
