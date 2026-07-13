@@ -50,24 +50,17 @@
         height: 163px;
         border-radius: 30%;
         margin-top: 100px;
-    }
-    
-    .button-contact{
-      display: none;
-    }
-
-    .button-download{
-      margin-top: 5px;  
-      margin-bottom: 60px;
-      display: block;      
-    }
+    }   
 
     /*Especialidades*/
     .title{
-      font-size: 21px;
+      font-size: 20px;
     }
 
     /*Projetos*/
+    .projects {
+      margin-bottom: 2rem;      
+   }
     .second-title{
       font-size: 30px;
     }   
@@ -101,7 +94,15 @@
     }
      
     footer .footer__content .footer__copyright {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
+
+ .button-github{
+   padding: 5px;  
+}
+
+.button-linkedin{
+   padding: 5px;   
+}
    
- }
+}
